@@ -1,0 +1,19 @@
+body{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    margin: 0;
+    background-color: black;
+}
+
+.clock {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    color: aqua;
+    font-size: 50px;
+    
+}
+
