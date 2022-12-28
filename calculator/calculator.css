@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+
+}
+
+.screen{
+    font-size: 112px;
+    background-color: darkblue;
+    color: white;
+}
+
+.clear{
+    font-size: 112px;
+    background: red;
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button {
+    flex-basis: 25%;
+    font-size:64px;
+}
+
+button:hover {
+    background-color: lightcoral;
+    
+}
